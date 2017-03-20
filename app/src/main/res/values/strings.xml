@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="library">Music Library</string>
+    <string name="artists">Artists</string>
+    <string name="artist_list">Artist Name Here</string>
+    <string name="songs">Songs</string>
+    <string name="songs_list">Song Name Here</string>
+    <string name="albums">Albums</string>
+    <string name="album_list">Album Name Here</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="songPlaying">Song Name</string>
+
+    <string name="explain_library">In this main activity screen user will see all the activity. If user click on songs
+    then it will take the user to the songs list activity, if click on albums it will take the user to the albums list
+    activity, if click artists then it will take the user to the artists list activity and if click on now playing then
+    it will take the user to the now playing activity screen.</string>
+
+    <string name="explain_artists">In this activity user will see a list of artists. Clicking
+    on one of these entries would bring the user to another list activity.</string>
+
+    <string name="explain_albums">In this activity user will see a list of Albums. Clicking
+    on one of these entries would bring the user to another list activity.</string>
+
+    <string name="explain_songs">In this activity user will see a list of Songs. Clicking
+    on one of these entries would bring the user to another list activity.</string>
+
+    <string name="explain_now_playing">This page shows which song is currently playing or paused. It will
+        have the controls: start, stop, skip, and previous.</string>
+
+</resources>

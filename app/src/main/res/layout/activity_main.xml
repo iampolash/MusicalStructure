@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/default_view"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <LinearLayout style="@style/homeBtn_style">
+
+        <ImageView
+            android:id="@+id/homeButton"
+            style="@style/homeBtnImg_style" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/songsView"
+            style="@style/btn_view">
+
+            <ImageView
+                style="@style/default_imgView"
+                android:src="@drawable/song" />
+
+            <TextView
+                style="@style/default_txtView"
+                android:text="@string/songs" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/artistsView"
+            style="@style/btn_view">
+
+            <ImageView
+                style="@style/default_imgView"
+                android:src="@drawable/artist" />
+
+            <TextView
+                style="@style/default_txtView"
+                android:text="@string/artists" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/albumsView"
+            style="@style/btn_view">
+
+            <ImageView
+                style="@style/default_imgView"
+                android:src="@drawable/album" />
+
+            <TextView
+                style="@style/default_txtView"
+                android:text="@string/albums" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/default_explanation"
+                android:text="@string/explain_library" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/nowPlayingView"
+            style="@style/nowPlaying_btn_layout">
+
+            <ImageView style="@style/nowPlayingbtn_ImgView" />
+
+            <TextView
+                style="@style/default_txtView"
+                android:text="@string/now_playing" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

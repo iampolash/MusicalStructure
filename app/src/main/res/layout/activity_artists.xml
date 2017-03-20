@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/default_view"
+    tools:context="com.example.android.musicalstructure.Songs">
+
+    <LinearLayout style="@style/homeBtn_style">
+
+        <ImageView
+            android:id="@+id/homeButton"
+            style="@style/homeBtnImg_style" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear_layout_1">
+
+        <ScrollView style="@style/scroll_view">
+
+            <LinearLayout style="@style/linear_layout_2">
+
+                <TextView
+                    style="@style/default_explanation"
+                    android:text="@string/explain_artists" />
+
+                <LinearLayout style="@style/list_view_layout">
+
+                    <ImageView style="@style/default_imgView_artists" />
+
+                    <TextView style="@style/default_txtView_artists" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/list_view_layout">
+
+                    <ImageView style="@style/default_imgView_artists" />
+
+                    <TextView style="@style/default_txtView_artists" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/list_view_layout">
+
+                    <ImageView style="@style/default_imgView_artists" />
+
+                    <TextView style="@style/default_txtView_artists" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/list_view_layout">
+
+                    <ImageView style="@style/default_imgView_artists" />
+
+                    <TextView style="@style/default_txtView_artists" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/list_view_layout">
+
+                    <ImageView style="@style/default_imgView_artists" />
+
+                    <TextView style="@style/default_txtView_artists" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/list_view_layout">
+
+                    <ImageView style="@style/default_imgView_artists" />
+
+                    <TextView style="@style/default_txtView_artists" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/list_view_layout">
+
+                    <ImageView style="@style/default_imgView_artists" />
+
+                    <TextView style="@style/default_txtView_artists" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/list_view_layout">
+
+                    <ImageView style="@style/default_imgView_artists" />
+
+                    <TextView style="@style/default_txtView_artists" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/list_view_layout">
+
+                    <ImageView style="@style/default_imgView_artists" />
+
+                    <TextView style="@style/default_txtView_artists" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/list_view_layout">
+
+                    <ImageView style="@style/default_imgView_artists" />
+
+                    <TextView style="@style/default_txtView_artists" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/nowPlayingView"
+            style="@style/nowPlaying_btn_layout">
+
+            <ImageView style="@style/nowPlayingbtn_ImgView" />
+
+            <TextView
+                style="@style/default_txtView"
+                android:text="@string/now_playing" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,213 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Base Layout -->
+    <style name="default_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Home Button -->
+    <style name="homeBtn_style">
+        <item name="android:layout_width">@dimen/sixty_dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <!-- Home Button Image-->
+    <style name="homeBtnImg_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/sixty_dp</item>
+        <item name="android:src">@drawable/home</item>
+    </style>
+
+    <!-- Default Button View Layout -->
+    <style name="btn_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/sixteen_dp</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Now Playing Button View Layout -->
+    <style name="nowPlaying_btn_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Now Playing Button Image View -->
+    <style name="nowPlayingbtn_ImgView">
+        <item name="android:layout_width">@dimen/eighty_dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/four_dp</item>
+        <item name="android:src">@drawable/now</item>
+    </style>
+
+    <!-- Default Image View Layout -->
+    <style name="default_imgView">
+        <item name="android:layout_width">@dimen/eighty_dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/four_dp</item>
+    </style>
+
+    <!-- Default ImageView for AlbumView in Album Activity  -->
+    <style name="default_imgView_album">
+        <item name="android:layout_width">@dimen/eighty_dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/four_dp</item>
+        <item name="android:src">@drawable/album</item>
+    </style>
+
+    <!-- Default ImageView for ArtistsView in Artistss Activity  -->
+    <style name="default_imgView_artists">
+        <item name="android:layout_width">@dimen/eighty_dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/four_dp</item>
+        <item name="android:src">@drawable/artist</item>
+    </style>
+
+    <!-- Default TextView for AlbumView in Album Activity -->
+    <style name="default_txtView_album">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/sixteen_dp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:text">@string/album_list</item>
+    </style>
+
+    <!-- Default TextView for ArtistsView in Artists Activity -->
+    <style name="default_txtView_artists">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/sixteen_dp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:text">@string/artist_list</item>
+    </style>
+
+    <!-- Default TextView for SongsView in Artists Activity -->
+    <style name="default_txtView_songs">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/sixteen_dp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:text">@string/songs_list</item>
+    </style>
+
+    <!-- Default ImageView for SongsView in Artistss Activity  -->
+    <style name="default_imgView_songs">
+        <item name="android:layout_width">@dimen/eighty_dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/four_dp</item>
+        <item name="android:src">@drawable/song</item>
+    </style>
+
+    <!-- Default item layout for AlbumView in Album Activity -->
+    <style name="list_view_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/sixteen_dp</item>
+        <item name="android:layout_marginRight">@dimen/sixteen_dp</item>
+        <item name="android:layout_marginBottom">@dimen/eight_dp</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Default TextView Style -->
+    <style name="default_txtView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/sixteen_dp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+
+    <!-- Default Explanation TextView -->
+    <style name="default_explanation">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/sixteen_dp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/explanation_text_size</item>
+    </style>
+
+    <!--Scroll view layout-->
+    <style name="scroll_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero_dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!--Default Linear Layout 1 -->
+    <style name="linear_layout_1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--Default Linear Layout 2-->
+    <style name="linear_layout_2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/sixteen_dp</item>
+    </style>
+
+    <!--Control Image View for Now Playing Activity-->
+    <style name="nowPlayingView_actions">
+        <item name="android:layout_width">@dimen/eighty_dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/four_dp</item>
+    </style>
+
+    <!--Nowplaying Screen Text View-->
+    <style name="nowPlayingExplanation_textView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/sixteen_dp</item>
+        <item name="android:text">@string/songPlaying</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <!--NowPlaying Screen Linear Layout 1 -->
+    <style name="nowPlaying_layout_1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--Nowplaying Screen Linear Layout 2-->
+    <style name="nowPlaying_layout_2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/sixty_dp</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!--Nowplaying Screen Image View-->
+    <style name="nowPlaying_Image_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/sixteen_dp</item>
+        <item name="android:src">@drawable/no_cover</item>
+    </style>
+</resources>
